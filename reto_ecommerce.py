@@ -20,7 +20,7 @@ tienda_info = ("TechieStore", "Santiago", 2025)
 
 """Completa las siguientes tareas dentro de `reto_ecommerce.py`:"""
 
-------------------------------------------------------------------------
+#------------------------------------------------------------------------
 
 ## ✅ 1. Mensaje de bienvenida
 
@@ -30,7 +30,7 @@ tienda_info = ("TechieStore", "Santiago", 2025)
 
 print(f"Bienvenido a {tienda_info[0]} en {tienda_info[1]} ({tienda_info[2]})")
 
-------------------------------------------------------------------------
+#------------------------------------------------------------------------
 
 ## ✅ 2. Mostrar cuántos productos existen
 
@@ -41,7 +41,7 @@ Total de productos: 5"""
 total_productos = len(productos)
 print(total_productos)
 
-------------------------------------------------------------------------
+#------------------------------------------------------------------------
 
 ## ✅ 3. Precio final con descuento (sin loops)
 
@@ -73,13 +73,13 @@ precio_final_teclado = precio_teclado - (precio_teclado*descuento_teclado)
 precio_final_monitor = precio_monitor - (precio_monitor*descuento_monitor)
 precio_final_audifonos = precio_audifonos - (precio_audifonos*descuento_audifonos)
 
-print(f"Laptop Pro 14 → ${precio_final_laptop},
+print(f"""Laptop Pro 14 → ${precio_final_laptop},
        Mouse Gamer X → ${precio_final_mouse},
        Teclado Mecánico K1 → ${precio_final_teclado},
        Monitor 27'' 4K → ${precio_final_monitor},
-       Audífonos Bluetooth Z → ${precio_audifonos}"
+       Audífonos Bluetooth Z → ${precio_audifonos}"""
        )
-------------------------------------------------------------------------
+#------------------------------------------------------------------------
 
 ## ✅ 4. Total de cada venta (sin loops)
 
@@ -99,7 +99,7 @@ print(f"Venta {ventas[2]["venta_id"]}: Ana compró {ventas[2]["cantidad"]} {prod
 print(f"Venta {ventas[3]["venta_id"]}: Ana compró {ventas[3]["cantidad"]} {productos[1]["nombre"]} y pagó {precio_final_mouse}")
 print(f"Venta {ventas[4]["venta_id"]}: Ana compró {ventas[4]["cantidad"]} {productos[4]["nombre"]} y pagó {precio_final_audifonos}")
 
-------------------------------------------------------------------------
+#------------------------------------------------------------------------
 
 ## ✅ 5. Ingreso total de la tienda
 
@@ -118,7 +118,7 @@ cantidad_audifonos = ventas[4]["cantidad"]
 
 ingreso_total = (precio_final_laptop*cantidad_laptop) + (precio_final_mouse*cantidad_mouse) + (precio_final_monitor*cantidad_monitor) + (precio_final_audifonos*cantidad_audifonos)
 print("Ingreso Total: ", ingreso_total)
-------------------------------------------------------------------------
+#------------------------------------------------------------------------
 
 # 📄 Entrega Final
 
@@ -128,65 +128,10 @@ print("Ingreso Total: ", ingreso_total)
 
 Y debe estar en la raíz de tu repositorio."""
 
-------------------------------------------------------------------------
+#------------------------------------------------------------------------
 
 # 🔵 🚀 Flujo completo de GitHub
 
 ### (Fork → Clone → Crear archivo → Commit → Push → Pull Request)
 
-------------------------------------------------------------------------
-
-## 🧰 1. Haz **Fork** del repositorio del instructor
-
-"""1.  Ve al repositorio original del profesor.\
-2.  Da clic en el botón **Fork**.\
-3.  Se creará una copia en tu GitHub personal.
-
-------------------------------------------------------------------------
-
-## 💻 2. Clona tu Fork a tu computadora
-
-``` bash
-git clone https://github.com/TU_USUARIO/NOMBRE_DEL_REPO.git
-cd NOMBRE_DEL_REPO
-```
-
-------------------------------------------------------------------------
-
-## ✏️ 3. Crea tu archivo del reto
-
-``` bash
-code reto_ecommerce.py
-```
-
-------------------------------------------------------------------------
-
-## 💾 4. Guarda tus cambios en Git
-
-``` bash
-git add reto_ecommerce.py
-git commit -m "Agrego mi solución del Reto 1"
-```
-
-------------------------------------------------------------------------
-
-## ⬆️ 5. Envía tus cambios a GitHub
-
-``` bash
-git push origin main
-```
-
-------------------------------------------------------------------------
-
-## 🔀 6. Crea un Pull Request al repositorio del profesor
-
-1.  Abre tu fork en GitHub.\
-2.  Haz clic en **Compare & Pull Request**.\
-3.  Escribe un mensaje como:
-
-```{=html}
-<!-- -->
-```
-    Entrego mi solución del Reto 1 – Mini Ecommerce BI
-
-4.  Envía el Pull Request.
+#-----------------------------------------------------------------------
